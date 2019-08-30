@@ -57,7 +57,8 @@ preciso utilizar essa ramificação.
 # CLONANDO UM PROJETO DO GITHUB
 > git clone endereço do projeto
 
-
+# ATUALIZANDO O REPOSITORIO LOCAL DE ACORDO COM O REPOSITORIO REMOTO
+> git pull
 
 
 
