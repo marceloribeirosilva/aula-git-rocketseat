@@ -24,7 +24,7 @@ Obs.: Isso é muito usado quando queremos criar uma funcionalidade nova, ou algo
 # MUDANDO PARA UMA RAMIFICAÇÃO ESPECÍFICA
 > git checkout NomeBranch
 
-# VENDO TODAS AS BRANCHS
+# VER TODAS AS BRANCHS
 > git branch
 
 # VER OS ARQUIVOS DA RAMIFICAÇÃO
@@ -32,6 +32,22 @@ Obs.: Isso é muito usado quando queremos criar uma funcionalidade nova, ou algo
 
 # PARA MESCLAR UMA BRANCH A PRINCIPAL
 > git merge NomeBranch
+
+# DELETANDO A BRANCH APÓS NÃO PRECISAR MAIS
+Obs.: Isso é feito após ter feito um merge da nova funcionalidade para a branch principal e depois não será
+preciso utilizar essa ramificação.
+> git branch -D NomeBranch
+
+# ADICIONANDO UM REPOSITÓRIO NA NUVEM (GITHUB)
+> git remote add origin "endereço do repositório"
+
+# VER OS REPOSITÓRIOS REMOTOS
+> git remote -v
+
+# DANDO PUSH (EMPURRANDO) O REPOSITORIO LOCAL PARA O REMOTO
+> git push -u origin master
+
+
 
 
 
