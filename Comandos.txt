@@ -65,5 +65,15 @@ preciso utilizar essa ramificação.
 > git checkout ID COMMIT -- nomeArquivo
 Exemplo: git checkout ef962ea0bd337ea045a02f982ea5bc1520f157f7 -- README.md
 
+# RESTAURANDO UM ARQUIVO DELETADO
+> Se foi deletado mas não foi feito commit, é possível restaurar da seguinte forma
+> git checkout -- nomeArquivoDeletado (o -- é para que o git pegue o arquivo do último ponto da história que ele possui
+ou seja, o ultimo commit que foi realizado do arquivo deletado)
+
+> Caso já tenha sido dado um commit com a deleção do arquivo
+> git checkout ID COMMIT -- nomeArquivoDeletado (O Id commit é o último que você saiba que existe o arquivo que foi deletado)
+
+
+
 
 
