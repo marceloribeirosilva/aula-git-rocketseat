@@ -6,6 +6,7 @@
 
 # CRIANDO UMA VERSÃO DO ARQUIVO (ANALOGIA: PONTO NA HISTÓRIA DO ARQUIVO "LINHA DO TEMPO")
 > git commit -m "Mensagem"
+. git commit -am "Mensagem" (comando curto para adicionar e comitar)
 
 # VENDO ESSE PONTO MARCADO NA LINHA DO TEMPO
 > git log
@@ -27,6 +28,9 @@ Obs.: Isso é muito usado quando queremos criar uma funcionalidade nova, ou algo
 # VER TODAS AS BRANCHS
 > git branch
 
+# CRIANDO UMA BRANCH E JÁ FAZENDO O CHECKOUT
+> git checkout -b nomeBranch
+
 # VER OS ARQUIVOS DA RAMIFICAÇÃO
 > git ls -al
 
@@ -46,6 +50,13 @@ preciso utilizar essa ramificação.
 
 # DANDO PUSH (EMPURRANDO) O REPOSITORIO LOCAL PARA O REMOTO
 > git push -u origin master
+
+# PARA ARMAZENAR O USUÁRIO E SENHA DO GITHUB
+> git config credential.helper store
+
+# CLONANDO UM PROJETO DO GITHUB
+> git clone endereço do projeto
+
 
 
 
