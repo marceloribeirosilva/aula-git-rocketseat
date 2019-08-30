@@ -60,6 +60,10 @@ preciso utilizar essa ramificação.
 # ATUALIZANDO O REPOSITORIO LOCAL DE ACORDO COM O REPOSITORIO REMOTO
 > git pull
 
+# VOLTANDO UM ARQUIVO PARA DETERMINADO PONTO DA LINHA DO TEMPO
+> git log (para pegar o commit que quer voltar)
+> git checkout ID COMMIT -- nomeArquivo
+Exemplo: git checkout ef962ea0bd337ea045a02f982ea5bc1520f157f7 -- README.md
 
 
 
