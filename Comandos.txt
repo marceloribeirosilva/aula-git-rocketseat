@@ -1,7 +1,7 @@
 # PARA COMEÇAR A UTILIZAR O GIT NO PROJETO
 > git init
 
-# ADICIONANDO O ARQUIVO NO CONTROLE DE VERSÃO ()
+# ADICIONANDO O ARQUIVO NO CONTROLE DE VERSÃO
 > git add nomeArquivo
 
 # CRIANDO UMA VERSÃO DO ARQUIVO (ANALOGIA: PONTO NA HISTÓRIA DO ARQUIVO "LINHA DO TEMPO")
@@ -12,3 +12,26 @@
 
 # VENDO O STATUS DO GIT
 > git status
+
+# VER AS MUDANÇAS DO ARQUIVO
+> git show "ID do Commit" (O id pega com o git log)
+> Caso eu queira ver a última alteração git, basta eu digitar git show sem o id
+
+# CRIANDO UMA NOVA RAMIFICAÇÃO (Como se criasse uma nova linha do tempo)
+Obs.: Isso é muito usado quando queremos criar uma funcionalidade nova, ou algo assim, sem perder o que já foi feito.
+> git branch "nome da ramificação
+
+# MUDANDO PARA UMA RAMIFICAÇÃO ESPECÍFICA
+> git checkout NomeBranch
+
+# VENDO TODAS AS BRANCHS
+> git branch
+
+# VER OS ARQUIVOS DA RAMIFICAÇÃO
+> git ls -al
+
+# PARA MESCLAR UMA BRANCH A PRINCIPAL
+> git merge NomeBranch
+
+
+
