@@ -73,6 +73,12 @@ ou seja, o ultimo commit que foi realizado do arquivo deletado)
 > Caso já tenha sido dado um commit com a deleção do arquivo
 > git checkout ID COMMIT -- nomeArquivoDeletado (O Id commit é o último que você saiba que existe o arquivo que foi deletado)
 
+# VERIFICANDO E ALTERANDO AS CONFIGURAÇÕES GLOBAIS DO GIT PARA PERMITIR QUE AS ATIVIDADES SEJAM COMPUTADAS
+git config --global user.name (Para ver qual é o nome que está na configuração. Tem que ser o mesmo nome do GitHub)
+git config --global user.name "nome" (Para alterar caso seja necessário)
+
+git config --global user.email (Para ver qual é o e-mail que está na configuração. Tem que ser o mesmo do GitHub)
+git config --global user.email "email" (Para alterar caso seja necessário)
 
 
 
